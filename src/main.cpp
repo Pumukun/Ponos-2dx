@@ -25,7 +25,7 @@ int main(int argc, char* args[]) {
 	// Загрузка текстур
 	SDL_Texture* playerTexture = window.loadTexture("res/gfx/Smilik.png");
 
-	Entity Player({512, 512}, playerTexture, 256, 256);
+	Entity Player({512, 512}, playerTexture, 512, 512);
 
 
 	bool gameRunning = true;
